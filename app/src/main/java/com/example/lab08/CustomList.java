@@ -10,9 +10,9 @@ public class CustomList {
         this.cities = new ArrayList<>();
     }
 
-    public void addCity(City city) {
-        cities.add(city);
-    }
+//    public void addCity(City city) {
+//        cities.add(city);
+//    }
 
     public boolean hasCity(City city) {
         return cities.contains(city);
